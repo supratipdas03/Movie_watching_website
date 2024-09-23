@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hollywood Movies</title>
+
+    <link rel="shortcut icon" href="./siteicon.svg" type="image/svg+xml" />
+
+    <link rel="stylesheet" href="./assets/css/movie.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="top">
+    <header class="header" data-header>
+      <div class="container">
+        <div class="overlay" data-overlay></div>
+
+        <a href="./index.html" class="logo">
+          <img
+            src="./assets/images/site-logo.svg"
+            alt="Entertainmentz4u logo"
+          />
+        </a>
+
+        <div class="header-actions">
+          <button class="search-btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+
+          <button class="btn btn-primary">Sign in</button>
+        </div>
+
+        <button class="menu-open-btn" data-menu-open-btn>
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="./index.html" class="logo">
+              <img
+                src="./assets/images/site-logo.svg"
+                alt="Entertainmentz4u logo"
+              />
+            </a>
+
+            <button class="menu-close-btn" data-menu-close-btn>
+              <i class="fa-solid fa-xmark fa-lg"></i>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li>
+              <a href="./index.html" class="navbar-link">Home</a>
+            </li>
+
+            <li>
+              <select
+                name="movies"
+                id="movies"
+                onchange="location = this.value;"
+              >
+                <option value="index.html">Movies</option>
+                <option value="bollywood.html">Bollywood</option>
+                <option value="hollywood.html">Hollywood</option>
+              </select>
+            </li>
+
+            <!-- <li>
+              <a href="anime.html" class="navbar-link">Anime</a>
+            </li> -->
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <section class="top-rated">
+          <div class="container">
+            <h2 class="h2 section-title">Hollywood Movies</h2>
+
+            <ul class="movies-list">
+              <li>
+                <div class="movie-card">
+                  <a href="./holy-godzillakong-movie.html">
+                    <figure class="card-banner">
+                      <img
+                        src="./assets/images/holy-godzilla-kong.jpg"
+                        alt="Godzilla x Kong: The New Empire movie poster"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="title-wrapper">
+                    <a href="./holy-godzillakong-movie.html">
+                      <h3 class="card-title">
+                        Godzilla x Kong: The New Empire
+                      </h3>
+                    </a>
+
+                    <time datetime="2024">2024</time>
+                  </div>
+
+                  <div class="card-meta">
+                    <div class="badge badge-outline">HD</div>
+
+                    <div class="duration">
+                      <i class="fa-regular fa-clock" style="color: #05cdff"></i>
+                      <time datetime="PT115M">115 min</time>
+                    </div>
+
+                    <div class="rating">
+                      <i class="fa-solid fa-star" style="color: #05cdff"></i>
+                      <data>6.2</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="movie-card">
+                  <a href="./holy-aquaman-movie.html">
+                    <figure class="card-banner">
+                      <img
+                        src="./assets/images/holy-Aquaman_and_the_Lost_Kingdom.jpg"
+                        alt="Aquaman and the Lost Kingdom movie poster"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="title-wrapper">
+                    <a href="./holy-aquaman-movie.html">
+                      <h3 class="card-title">Aquaman and the Lost Kingdom</h3>
+                    </a>
+
+                    <time datetime="2023">2023</time>
+                  </div>
+
+                  <div class="card-meta">
+                    <div class="badge badge-outline">HD</div>
+
+                    <div class="duration">
+                      <i class="fa-regular fa-clock" style="color: #05cdff"></i>
+                      <time datetime="PT124M">124 min</time>
+                    </div>
+
+                    <div class="rating">
+                      <i class="fa-solid fa-star" style="color: #05cdff"></i>
+                      <data>5.6</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="movie-card">
+                  <a href="./holy-openheimer-movie.html">
+                    <figure class="card-banner">
+                      <img
+                        src="./assets/images/holy-open-heimer.jpg"
+                        alt="Oppenheimer movie poster"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="title-wrapper">
+                    <a href="./holy-openheimer-movie.html">
+                      <h3 class="card-title">Oppenheimer</h3>
+                    </a>
+
+                    <time datetime="2023">2023</time>
+                  </div>
+
+                  <div class="card-meta">
+                    <div class="badge badge-outline">HD</div>
+
+                    <div class="duration">
+                      <i class="fa-regular fa-clock" style="color: #05cdff"></i>
+                      <time datetime="PT180M">180 min</time>
+                    </div>
+
+                    <div class="rating">
+                      <i class="fa-solid fa-star" style="color: #05cdff"></i>
+                      <data>8.3</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="movie-card">
+                  <a href="./holy-docterstrange-movie.html">
+                    <figure class="card-banner">
+                      <img
+                        src="./assets/images/holy-docter-strange.png"
+                        alt="Doctor Strange in the Multiverse of Madness movie poster"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="title-wrapper">
+                    <a href="./holy-docterstrange-movie.html">
+                      <h3 class="card-title">Doctor Strange in the Multiverse of Madness</h3>
+                    </a>
+
+                    <time datetime="2023">2022</time>
+                  </div>
+
+                  <div class="card-meta">
+                    <div class="badge badge-outline">HD</div>
+
+                    <div class="duration">
+                      <i class="fa-regular fa-clock" style="color: #05cdff"></i>
+                      <time datetime="PT180M">126 min</time>
+                    </div>
+
+                    <div class="rating">
+                      <i class="fa-solid fa-star" style="color: #05cdff"></i>
+                      <data>6.9</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-brand-wrapper">
+            <a href="./index.html" class="logo">
+              <img
+                src="./assets/images/site-logo.svg"
+                alt="Entertainmentz4u logo"
+              />
+            </a>
+
+            <ul class="footer-list">
+              <li>
+                <a href="./index.html" class="footer-link">Home</a>
+              </li>
+
+              <li>
+                <select
+                  name="movies"
+                  id="movies"
+                  onchange="location = this.value;"
+                >
+                  <option value="index.html">Movies</option>
+                  <option value="bollywood.html">Bollywood</option>
+                  <option value="hollywood.html">Hollywood</option>
+                </select>
+              </li>
+
+              <!-- <li>
+                <a href="#" class="footer-link">Anime</a>
+              </li> -->
+            </ul>
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="quicklink-wrapper">
+            <ul class="quicklink-list">
+              <li>
+                <a href="#" class="quicklink-link">Faq</a>
+              </li>
+
+              <li>
+                <a href="#" class="quicklink-link">Terms of use</a>
+              </li>
+
+              <li>
+                <a href="#" class="quicklink-link">Privacy</a>
+              </li>
+            </ul>
+
+            <ul class="social-list">
+              <li>
+                <a href="#" class="social-link">
+                  <i class="fa-brands fa-facebook fa-lg"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <i class="fa-brands fa-instagram fa-lg"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <i class="fa-brands fa-x-twitter fa-lg"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <i class="fa-brands fa-linkedin fa-lg"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">
+            &copy; 2024 <a href="#">Entertainmentz4u</a>. All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#top" class="go-top" data-go-top>
+      <i class="fa-solid fa-caret-up fa-xl"></i>
+    </a>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
